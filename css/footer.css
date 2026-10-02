@@ -67,7 +67,7 @@
 
   background-color: transparent;
 
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: border-color;
 }
 
