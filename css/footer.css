@@ -57,6 +57,11 @@
   height: 40px;
   color: #fff;
 
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
   justify-content: end;
   outline: none;
 
@@ -69,7 +74,7 @@
 .footer-form-input::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #fff;
 }
@@ -93,10 +98,11 @@
   max-width: 165px;
   gap: 16px;
 
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: background-color;
 }
 
-.subscribe:hover {
+.subscribe:hover,
+.subscribe:focus {
   background-color: #31d0aa;
 }
